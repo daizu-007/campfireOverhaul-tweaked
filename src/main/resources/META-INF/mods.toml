@@ -1,0 +1,46 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+[[mods]]
+modId="campfire_overhaul"
+version="0.1"
+displayName="Campfire Overhaul"
+authors="daizuch"
+description='''
+A mod that overhauls campfire mechanics to enhance immersion and usefulness.
+'''
+[[dependencies.campfire_overhaul]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
+	
+[[dependencies.campfire_overhaul]]
+    modId="campful"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+	
+[[dependencies.campfire_overhaul]]
+    modId="infernalexp"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.campfire_overhaul]]
+    modId="endergetic"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+	
+[[dependencies.campfire_overhaul]]
+    modId="realistictorches"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
